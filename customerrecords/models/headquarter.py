@@ -1,24 +1,25 @@
 from .location import Location
 
+
 class Headquarter():
     def __init__(self, name, location):
         self._name = self.__validateName(name)
         self._location = self.__validateLocation(location)
-    
+
     @property
     def name(self):
         return self._name
-    
+
     @property
     def location(self):
         return self._location
-    
+
     def __validateLocation(self, location):
         if type(location) is Location:
             return location
         else:
             raise ValueError("Location must be a Location object.")
-    
+
     def __validateName(self, name):
         if type(name) is str:
             if name.strip() != "":

@@ -11,10 +11,10 @@ class TestDistanceCalculator(unittest.TestCase):
     def test_distance_calculator(self):
         barcelona = Location(41.38879, 2.15898)
         dublin = Location(53.3434, -6.26761)
-        distance = self.distanceCalculator.betweenTwoLocations(barcelona, dublin)
+        distance = self.distanceCalculator.betweenTwoLocations(
+            barcelona, dublin)
         self.assertGreater(distance, 1400)
 
 
 if __name__ == '__main__':
     unittest.main()
-
