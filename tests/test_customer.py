@@ -21,24 +21,29 @@ class TestCustomerModel(unittest.TestCase):
         self.assertEqual(customer.location, self.location)
 
     def test_empty_id(self):
-        with self.assertRaises(ValueError):
+        with self.assertLogs() as cm:
             Customer("", "John Snow", self.location)
+            self.assertIn("Id must be an int type.", cm.output[0])
 
     def test_int_name(self):
-        with self.assertRaises(ValueError):
+        with self.assertLogs() as cm:
             Customer(34, 23, self.location)
+            self.assertIn("Name must be a string.", cm.output[0])
 
     def test_empty_name_1(self):
-        with self.assertRaises(ValueError):
+        with self.assertLogs() as cm:
             Customer(34, "", self.location)
+            self.assertIn("Name must not be empty.", cm.output[0])
 
     def test_empty_name_2(self):
-        with self.assertRaises(ValueError):
+        with self.assertLogs() as cm:
             Customer(34, "      ", self.location)
+            self.assertIn("Name must not be empty.", cm.output[0])
 
     def test_other_type_location(self):
-        with self.assertRaises(ValueError):
+        with self.assertLogs() as cm:
             Customer("34", "John Snow", 78)
+            self.assertIn("Location must be a Location object.", cm.output[0])
 
 
 if __name__ == '__main__':

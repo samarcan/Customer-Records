@@ -1,11 +1,16 @@
-from .import Location
+from ..utils.baselog import BaseLog
+from .location import Location
 
 
-class Customer():
+class Customer(BaseLog):
     def __init__(self, id, name, location):
-        self._id = self.__validateId(id)
-        self._name = self.__validateName(name)
-        self._location = self.__validateLocation(location)
+        super(Customer, self).__init__()
+        try:
+            self._id = self.__validateId(id)
+            self._name = self.__validateName(name)
+            self._location = self.__validateLocation(location)
+        except Exception as e:
+            self.logger.warning(str(e))
 
     @property
     def id(self):
