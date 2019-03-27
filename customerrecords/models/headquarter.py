@@ -4,8 +4,13 @@ from utils.baselog import BaseLog
 
 class Headquarter(BaseLog):
     def __init__(self, name, location):
-        self._name = self.__validateName(name)
-        self._location = self.__validateLocation(location)
+        super(Headquarter, self).__init__()
+        try:
+            self._name = self.__validateName(name)
+            self._location = self.__validateLocation(location)
+            self.logger.info("Created headquarter with name: %s" % self._name)
+        except Exception as e:
+            self.logger.warning(str(e))
 
     @property
     def name(self):

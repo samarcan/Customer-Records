@@ -1,7 +1,7 @@
-from models.location import Location
-from models.customer import Customer
-from models.headquarter import Headquarter
-from models.party import Party
+from .location import Location
+from .customer import Customer
+from .headquarter import Headquarter
+from .party import Party
 
 
 __all__ = ['Location', "Customer", "Headquarter", 'Party']

@@ -9,6 +9,7 @@ class Customer(BaseLog):
             self._id = self.__validateId(id)
             self._name = self.__validateName(name)
             self._location = self.__validateLocation(location)
+            self.logger.info("Created customer with id: %d" % self._id)
         except Exception as e:
             self.logger.warning(str(e))
 

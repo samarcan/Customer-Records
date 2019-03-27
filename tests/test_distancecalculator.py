@@ -1,7 +1,9 @@
 import unittest
 
-from customerrecords.models import Location
-from customerrecords.utils.distancecalculator import DistanceCalculator
+import context
+
+from models import Location
+from utils.distancecalculator import DistanceCalculator
 
 
 class TestDistanceCalculator(unittest.TestCase):

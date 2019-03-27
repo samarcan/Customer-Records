@@ -1,6 +1,8 @@
 import unittest
 
-from customerrecords.models import Location
+import context
+
+from models import Location
 
 
 class TestLocationModel(unittest.TestCase):

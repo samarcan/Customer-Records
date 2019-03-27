@@ -1,6 +1,8 @@
 import unittest
 
-from customerrecords.models import Customer, Headquarter, Location, Party
+import context
+
+from models import Customer, Headquarter, Location, Party
 
 
 class TestPartyModel(unittest.TestCase):

@@ -2,7 +2,9 @@ import unittest
 import os
 import json
 
-from customerrecords.utils.datareader import DataReader
+import context
+
+from utils.datareader import DataReader
 
 
 class TestDataReader(unittest.TestCase):

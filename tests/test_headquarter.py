@@ -1,6 +1,8 @@
 import unittest
 
-from customerrecords.models import Location, Headquarter
+import context
+
+from models import Location, Headquarter
 
 
 class TestHeadquarterModel(unittest.TestCase):
@@ -14,20 +16,24 @@ class TestHeadquarterModel(unittest.TestCase):
         self.assertEqual(headquarter.location, self.location)
 
     def test_int_name(self):
-        with self.assertRaises(ValueError):
+        with self.assertLogs() as cm:
             Headquarter(23, self.location)
+            self.assertIn("Name must be a string.", cm.output[0])
 
     def test_empty_name_1(self):
-        with self.assertRaises(ValueError):
+        with self.assertLogs() as cm:
             Headquarter("", self.location)
+            self.assertIn("Name must not be empty.", cm.output[0])
 
     def test_empty_name_2(self):
-        with self.assertRaises(ValueError):
+        with self.assertLogs() as cm:
             Headquarter("      ", self.location)
+            self.assertIn("Name must not be empty.", cm.output[0])
 
     def test_other_type_location(self):
-        with self.assertRaises(ValueError):
+        with self.assertLogs() as cm:
             Headquarter("Awesome Headquarter", 78)
+            self.assertIn("Location must be a Location object.", cm.output[0])
 
 
 if __name__ == '__main__':

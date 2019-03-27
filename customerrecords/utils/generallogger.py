@@ -18,10 +18,9 @@ class GeneralLogger(object, metaclass=SingletonMetaclass):
 
     def __init__(self):
         self._logger = logging.getLogger("customer_records")
-        self._logger.setLevel(logging.DEBUG)
+        self._logger.setLevel(logging.INFO)
         formatter = self.__getFormatter()
         self.__setFileHandler(formatter)
-        self.__setStreamHandler(formatter)
 
     def __getFormatter(self):
         return logging.Formatter(
@@ -37,11 +36,6 @@ class GeneralLogger(object, metaclass=SingletonMetaclass):
             dirname + "/log_" + now.strftime("%Y-%m-%d") + ".log")
         fileHandler.setFormatter(formatter)
         self._logger.addHandler(fileHandler)
-
-    def __setStreamHandler(self, formatter):
-        streamHandler = logging.StreamHandler()
-        streamHandler.setFormatter(formatter)
-        self._logger.addHandler(streamHandler)
 
     def get_logger(self):
         return self._logger
