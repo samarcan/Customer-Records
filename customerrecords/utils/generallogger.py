@@ -34,6 +34,7 @@ class GeneralLogger(object, metaclass=SingletonMetaclass):
             os.mkdir(dirname)
         fileHandler = logging.FileHandler(
             dirname + "/log_" + now.strftime("%Y-%m-%d") + ".log")
+        fileHandler.setLevel(logging.INFO)
         fileHandler.setFormatter(formatter)
         self._logger.addHandler(fileHandler)
 
