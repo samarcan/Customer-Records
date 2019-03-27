@@ -1,8 +1,9 @@
-from utils.baselog import BaseLog
 from models.location import Location
+from models.basemodel import BaseModel
 
 
-class Customer(BaseLog):
+class Customer(BaseModel):
+
     def __init__(self, id, name, location):
         super(Customer, self).__init__()
         try:
@@ -26,32 +27,21 @@ class Customer(BaseLog):
         return self._location
 
     def __validateLocation(self, location):
-        if type(location) is Location:
-            return location
-        else:
-            raise ValueError("Location must be a Location object.")
+        try:
+            return self.objectTypeChecker(location, Location)
+        except ValueError as e:
+            raise type(e)("Location" + str(e))
 
     def __validateName(self, name):
-        if type(name) is str:
-            if name.strip() != "":
-                return name
-            raise ValueError("Name must not be empty.")
-        raise ValueError("Name must be a string.")
+        try:
+            return self.stringChecker(name)
+        except ValueError as e:
+            raise type(e)("Name" + str(e))
 
     def __validateId(self, id):
         try:
-            return self.__intChecker(id)
+            id = self.intChecker(id)
+            self.greaterEqualThanChecker(id, 0)
+            return id
         except ValueError as e:
             raise type(e)("Id" + str(e))
-
-    def __checkPositive(self, value):
-        if value < 0:
-            raise ValueError(" must be a positive number")
-
-    def __intChecker(self, value):
-        try:
-            if type(value) is not int:
-                return int(value)
-            return value
-        except ValueError as e:
-            raise type(e)(" must be an int type.")
