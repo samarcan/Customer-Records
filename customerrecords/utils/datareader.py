@@ -15,17 +15,17 @@ class DataReader(BaseLog):
             while line:
                 yield self.__decodeJsonLine(line)
                 line = dataFile.readline()
-    
+
     def __decodeJsonLine(self, line):
         try:
             self.logger.info("Reading line: %s", line.strip())
             return json.loads(line)
-        except JSONDecodeError as e:
+        except JSONDecodeError:
             self.logger.warning("Line must be in JSON format")
 
     def __checkFilePath(self, filePath):
         if os.path.isfile(filePath):
             return filePath
         else:
-            self.logger.error("Data file does not exist.")
+            self.logger.critical("Data file does not exist.")
             raise FileNotFoundError("File not found")

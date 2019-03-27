@@ -16,24 +16,24 @@ class TestHeadquarterModel(unittest.TestCase):
         self.assertEqual(headquarter.location, self.location)
 
     def test_int_name(self):
-        with self.assertLogs() as cm:
+        with self.assertRaises(ValueError) as e:
             Headquarter(23, self.location)
-            self.assertIn("Name must be a string.", cm.output[0])
+            self.assertIn("Name must be a string.", str(e))
 
     def test_empty_name_1(self):
-        with self.assertLogs() as cm:
+        with self.assertRaises(ValueError) as e:
             Headquarter("", self.location)
-            self.assertIn("Name must not be empty.", cm.output[0])
+            self.assertIn("Name must not be empty.", str(e))
 
     def test_empty_name_2(self):
-        with self.assertLogs() as cm:
+        with self.assertRaises(ValueError) as e:
             Headquarter("      ", self.location)
-            self.assertIn("Name must not be empty.", cm.output[0])
+            self.assertIn("Name must not be empty.", str(e))
 
     def test_other_type_location(self):
-        with self.assertLogs() as cm:
+        with self.assertRaises(ValueError) as e:
             Headquarter("Awesome Headquarter", 78)
-            self.assertIn("Location must be a Location object.", cm.output[0])
+            self.assertIn("Location must be a Location object.", str(e))
 
 
 if __name__ == '__main__':
