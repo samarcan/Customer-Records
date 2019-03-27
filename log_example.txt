@@ -1,0 +1,130 @@
+2019-03-27 22:26:19,829 	 [INFO | headquarter.py:12] > Created headquarter with name: Intercom Dublin
+2019-03-27 22:26:19,830 	 [INFO | datareader.py:21] > Reading line: {"latitude": "52.986375", "user_id": 12, "name": "Christina McArdle", "longitude": "-6.043701"}
+2019-03-27 22:26:19,831 	 [INFO | customer.py:13] > Created customer with id: 12
+2019-03-27 22:26:19,831 	 [INFO | party.py:72] > Customer 12 is 41.77 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,831 	 [INFO | party.py:49] > Customer 12 has been invited.
+2019-03-27 22:26:19,831 	 [INFO | datareader.py:21] > Reading line: {"latitude": "51.92893", "user_id": 1, "name": "Alice Cahill", "longitude": "-10.27699"}
+2019-03-27 22:26:19,831 	 [INFO | customer.py:13] > Created customer with id: 1
+2019-03-27 22:26:19,831 	 [INFO | party.py:72] > Customer 1 is 313.26 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,831 	 [INFO | party.py:51] > Customer 1 has not been invited.
+2019-03-27 22:26:19,831 	 [INFO | datareader.py:21] > Reading line: {"latitude": "51.8856167", "user_id": 2, "name": "Ian McArdle", "longitude": "-10.4240951"}
+2019-03-27 22:26:19,832 	 [INFO | customer.py:13] > Created customer with id: 2
+2019-03-27 22:26:19,832 	 [INFO | party.py:72] > Customer 2 is 324.37 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,832 	 [INFO | party.py:51] > Customer 2 has not been invited.
+2019-03-27 22:26:19,832 	 [INFO | datareader.py:21] > Reading line: {"latitude": "52.3191841", "user_id": 3, "name": "Jack Enright", "longitude": "-8.5072391"}
+2019-03-27 22:26:19,832 	 [INFO | customer.py:13] > Created customer with id: 3
+2019-03-27 22:26:19,832 	 [INFO | party.py:72] > Customer 3 is 188.96 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,832 	 [INFO | party.py:51] > Customer 3 has not been invited.
+2019-03-27 22:26:19,832 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.807778", "user_id": 28, "name": "Charlie Halligan", "longitude": "-7.714444"}
+2019-03-27 22:26:19,833 	 [INFO | customer.py:13] > Created customer with id: 28
+2019-03-27 22:26:19,833 	 [INFO | party.py:72] > Customer 28 is 109.38 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,833 	 [INFO | party.py:51] > Customer 28 has not been invited.
+2019-03-27 22:26:19,833 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.4692815", "user_id": 7, "name": "Frank Kehoe", "longitude": "-9.436036"}
+2019-03-27 22:26:19,833 	 [INFO | customer.py:13] > Created customer with id: 7
+2019-03-27 22:26:19,833 	 [INFO | party.py:72] > Customer 7 is 211.17 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,833 	 [INFO | party.py:51] > Customer 7 has not been invited.
+2019-03-27 22:26:19,833 	 [INFO | datareader.py:21] > Reading line: {"latitude": "54.0894797", "user_id": 8, "name": "Eoin Ahearn", "longitude": "-6.18671"}
+2019-03-27 22:26:19,833 	 [INFO | customer.py:13] > Created customer with id: 8
+2019-03-27 22:26:19,834 	 [INFO | party.py:72] > Customer 8 is 83.53 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,834 	 [INFO | party.py:49] > Customer 8 has been invited.
+2019-03-27 22:26:19,834 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.038056", "user_id": 26, "name": "Stephen McArdle", "longitude": "-7.653889"}
+2019-03-27 22:26:19,834 	 [INFO | customer.py:13] > Created customer with id: 26
+2019-03-27 22:26:19,834 	 [INFO | party.py:72] > Customer 26 is 98.87 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,834 	 [INFO | party.py:49] > Customer 26 has been invited.
+2019-03-27 22:26:19,834 	 [INFO | datareader.py:21] > Reading line: {"latitude": "54.1225", "user_id": 27, "name": "Enid Gallagher", "longitude": "-8.143333"}
+2019-03-27 22:26:19,835 	 [INFO | customer.py:13] > Created customer with id: 27
+2019-03-27 22:26:19,835 	 [INFO | party.py:72] > Customer 27 is 151.54 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,835 	 [INFO | party.py:51] > Customer 27 has not been invited.
+2019-03-27 22:26:19,835 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.1229599", "user_id": 6, "name": "Theresa Enright", "longitude": "-6.2705202"}
+2019-03-27 22:26:19,835 	 [INFO | customer.py:13] > Created customer with id: 6
+2019-03-27 22:26:19,836 	 [INFO | party.py:72] > Customer 6 is 24.09 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,836 	 [INFO | party.py:49] > Customer 6 has been invited.
+2019-03-27 22:26:19,836 	 [INFO | datareader.py:21] > Reading line: {"latitude": "52.2559432", "user_id": 9, "name": "Jack Dempsey", "longitude": "-7.1048927"}
+2019-03-27 22:26:19,836 	 [INFO | customer.py:13] > Created customer with id: 9
+2019-03-27 22:26:19,836 	 [INFO | party.py:72] > Customer 9 is 133.26 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,836 	 [INFO | party.py:51] > Customer 9 has not been invited.
+2019-03-27 22:26:19,837 	 [INFO | datareader.py:21] > Reading line: {"latitude": "52.240382", "user_id": 10, "name": "Georgina Gallagher", "longitude": "-6.972413"}
+2019-03-27 22:26:19,837 	 [INFO | customer.py:13] > Created customer with id: 10
+2019-03-27 22:26:19,837 	 [INFO | party.py:72] > Customer 10 is 131.32 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,837 	 [INFO | party.py:51] > Customer 10 has not been invited.
+2019-03-27 22:26:19,837 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.2451022", "user_id": 4, "name": "Ian Kehoe", "longitude": "-6.238335"}
+2019-03-27 22:26:19,837 	 [INFO | customer.py:13] > Created customer with id: 4
+2019-03-27 22:26:19,837 	 [INFO | party.py:72] > Customer 4 is 10.57 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,838 	 [INFO | party.py:49] > Customer 4 has been invited.
+2019-03-27 22:26:19,838 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.1302756", "user_id": 5, "name": "Nora Dempsey", "longitude": "-6.2397222"}
+2019-03-27 22:26:19,838 	 [INFO | customer.py:13] > Created customer with id: 5
+2019-03-27 22:26:19,838 	 [INFO | party.py:72] > Customer 5 is 23.29 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,838 	 [INFO | party.py:49] > Customer 5 has been invited.
+2019-03-27 22:26:19,838 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.008769", "user_id": 11, "name": "Richard Finnegan", "longitude": "-6.1056711"}
+2019-03-27 22:26:19,838 	 [INFO | customer.py:13] > Created customer with id: 11
+2019-03-27 22:26:19,838 	 [INFO | party.py:72] > Customer 11 is 38.14 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,838 	 [INFO | party.py:49] > Customer 11 has been invited.
+2019-03-27 22:26:19,838 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.1489345", "user_id": 31, "name": "Alan Behan", "longitude": "-6.8422408"}
+2019-03-27 22:26:19,838 	 [INFO | customer.py:13] > Created customer with id: 31
+2019-03-27 22:26:19,838 	 [INFO | party.py:72] > Customer 31 is 44.29 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,839 	 [INFO | party.py:49] > Customer 31 has been invited.
+2019-03-27 22:26:19,839 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53", "user_id": 13, "name": "Olive Ahearn", "longitude": "-7"}
+2019-03-27 22:26:19,839 	 [INFO | customer.py:13] > Created customer with id: 13
+2019-03-27 22:26:19,839 	 [INFO | party.py:72] > Customer 13 is 62.23 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,839 	 [INFO | party.py:49] > Customer 13 has been invited.
+2019-03-27 22:26:19,839 	 [INFO | datareader.py:21] > Reading line: {"latitude": "51.999447", "user_id": 14, "name": "Helen Cahill", "longitude": "-9.742744"}
+2019-03-27 22:26:19,839 	 [INFO | customer.py:13] > Created customer with id: 14
+2019-03-27 22:26:19,839 	 [INFO | party.py:72] > Customer 14 is 278.21 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,839 	 [INFO | party.py:51] > Customer 14 has not been invited.
+2019-03-27 22:26:19,839 	 [INFO | datareader.py:21] > Reading line: {"latitude": "52.966", "user_id": 15, "name": "Michael Ahearn", "longitude": "-6.463"}
+2019-03-27 22:26:19,839 	 [INFO | customer.py:13] > Created customer with id: 15
+2019-03-27 22:26:19,839 	 [INFO | party.py:72] > Customer 15 is 43.72 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,839 	 [INFO | party.py:49] > Customer 15 has been invited.
+2019-03-27 22:26:19,840 	 [INFO | datareader.py:21] > Reading line: {"latitude": "52.366037", "user_id": 16, "name": "Ian Larkin", "longitude": "-8.179118"}
+2019-03-27 22:26:19,840 	 [INFO | customer.py:13] > Created customer with id: 16
+2019-03-27 22:26:19,840 	 [INFO | party.py:72] > Customer 16 is 168.40 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,840 	 [INFO | party.py:51] > Customer 16 has not been invited.
+2019-03-27 22:26:19,840 	 [INFO | datareader.py:21] > Reading line: {"latitude": "54.180238", "user_id": 17, "name": "Patricia Cahill", "longitude": "-5.920898"}
+2019-03-27 22:26:19,840 	 [INFO | customer.py:13] > Created customer with id: 17
+2019-03-27 22:26:19,840 	 [INFO | party.py:72] > Customer 17 is 96.08 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,840 	 [INFO | party.py:49] > Customer 17 has been invited.
+2019-03-27 22:26:19,840 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.0033946", "user_id": 39, "name": "Lisa Ahearn", "longitude": "-6.3877505"}
+2019-03-27 22:26:19,840 	 [INFO | customer.py:13] > Created customer with id: 39
+2019-03-27 22:26:19,840 	 [INFO | party.py:72] > Customer 39 is 38.36 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,840 	 [INFO | party.py:49] > Customer 39 has been invited.
+2019-03-27 22:26:19,840 	 [INFO | datareader.py:21] > Reading line: {"latitude": "52.228056", "user_id": 18, "name": "Bob Larkin", "longitude": "-7.915833"}
+2019-03-27 22:26:19,841 	 [INFO | customer.py:13] > Created customer with id: 18
+2019-03-27 22:26:19,841 	 [INFO | party.py:72] > Customer 18 is 166.45 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,841 	 [INFO | party.py:51] > Customer 18 has not been invited.
+2019-03-27 22:26:19,841 	 [INFO | datareader.py:21] > Reading line: {"latitude": "54.133333", "user_id": 24, "name": "Rose Enright", "longitude": "-6.433333"}
+2019-03-27 22:26:19,841 	 [INFO | customer.py:13] > Created customer with id: 24
+2019-03-27 22:26:19,841 	 [INFO | party.py:72] > Customer 24 is 89.03 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,841 	 [INFO | party.py:49] > Customer 24 has been invited.
+2019-03-27 22:26:19,841 	 [INFO | datareader.py:21] > Reading line: {"latitude": "55.033", "user_id": 19, "name": "Enid Cahill", "longitude": "-8.112"}
+2019-03-27 22:26:19,841 	 [INFO | customer.py:13] > Created customer with id: 19
+2019-03-27 22:26:19,841 	 [INFO | party.py:72] > Customer 19 is 223.63 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,841 	 [INFO | party.py:51] > Customer 19 has not been invited.
+2019-03-27 22:26:19,841 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.521111", "user_id": 20, "name": "Enid Enright", "longitude": "-9.831111"}
+2019-03-27 22:26:19,841 	 [INFO | customer.py:13] > Created customer with id: 20
+2019-03-27 22:26:19,841 	 [INFO | party.py:72] > Customer 20 is 237.58 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,842 	 [INFO | party.py:51] > Customer 20 has not been invited.
+2019-03-27 22:26:19,842 	 [INFO | datareader.py:21] > Reading line: {"latitude": "51.802", "user_id": 21, "name": "David Ahearn", "longitude": "-9.442"}
+2019-03-27 22:26:19,842 	 [INFO | customer.py:13] > Created customer with id: 21
+2019-03-27 22:26:19,842 	 [INFO | party.py:72] > Customer 21 is 274.80 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,842 	 [INFO | party.py:51] > Customer 21 has not been invited.
+2019-03-27 22:26:19,842 	 [INFO | datareader.py:21] > Reading line: {"latitude": "54.374208", "user_id": 22, "name": "Charlie McArdle", "longitude": "-8.371639"}
+2019-03-27 22:26:19,842 	 [INFO | customer.py:13] > Created customer with id: 22
+2019-03-27 22:26:19,842 	 [INFO | party.py:72] > Customer 22 is 180.16 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,842 	 [INFO | party.py:51] > Customer 22 has not been invited.
+2019-03-27 22:26:19,842 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.74452", "user_id": 29, "name": "Oliver Ahearn", "longitude": "-7.11167"}
+2019-03-27 22:26:19,842 	 [INFO | customer.py:13] > Created customer with id: 29
+2019-03-27 22:26:19,842 	 [INFO | party.py:72] > Customer 29 is 72.20 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,842 	 [INFO | party.py:49] > Customer 29 has been invited.
+2019-03-27 22:26:19,843 	 [INFO | datareader.py:21] > Reading line: {"latitude": "53.761389", "user_id": 30, "name": "Nick Enright", "longitude": "-7.2875"}
+2019-03-27 22:26:19,843 	 [INFO | customer.py:13] > Created customer with id: 30
+2019-03-27 22:26:19,843 	 [INFO | party.py:72] > Customer 30 is 82.64 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,843 	 [INFO | party.py:49] > Customer 30 has been invited.
+2019-03-27 22:26:19,843 	 [INFO | datareader.py:21] > Reading line: {"latitude": "54.080556", "user_id": 23, "name": "Eoin Gallagher", "longitude": "-6.361944"}
+2019-03-27 22:26:19,843 	 [INFO | customer.py:13] > Created customer with id: 23
+2019-03-27 22:26:19,843 	 [INFO | party.py:72] > Customer 23 is 82.69 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,843 	 [INFO | party.py:49] > Customer 23 has been invited.
+2019-03-27 22:26:19,843 	 [INFO | datareader.py:21] > Reading line: {"latitude": "52.833502", "user_id": 25, "name": "David Behan", "longitude": "-8.522366"}
+2019-03-27 22:26:19,843 	 [INFO | customer.py:13] > Created customer with id: 25
+2019-03-27 22:26:19,843 	 [INFO | party.py:72] > Customer 25 is 161.36 km away from the headquarter Intercom Dublin.
+2019-03-27 22:26:19,843 	 [INFO | party.py:51] > Customer 25 has not been invited.
+2019-03-27 22:26:19,844 	 [INFO | party.py:40] > Sorting guests by id in order ASC
