@@ -1,9 +1,10 @@
-from ..utils.distancecalculator import DistanceCalculator
+from utils.distancecalculator import DistanceCalculator
+from utils.baselog import BaseLog
 
-from .customer import Customer
+from models.customer import Customer
 
 
-class Party():
+class Party(BaseLog):
 
     def __init__(self, headquarter, distanceFilter):
         self._headquarter = headquarter

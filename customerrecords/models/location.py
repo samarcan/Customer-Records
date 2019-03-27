@@ -1,6 +1,7 @@
+from utils.baselog import BaseLog
 
 
-class Location():
+class Location(BaseLog):
     def __init__(self, latitude, longitude):
         self._latitude = self.__validateLatitude(latitude)
         self._longitude = self.__validateLongitude(longitude)

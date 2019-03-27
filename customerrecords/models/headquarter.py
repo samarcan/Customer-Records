@@ -1,7 +1,8 @@
-from .location import Location
+from models.location import Location
+from utils.baselog import BaseLog
 
 
-class Headquarter():
+class Headquarter(BaseLog):
     def __init__(self, name, location):
         self._name = self.__validateName(name)
         self._location = self.__validateLocation(location)

@@ -1,4 +1,4 @@
-from .generallogger import GeneralLogger
+from utils.generallogger import GeneralLogger
 
 
 class BaseLog():

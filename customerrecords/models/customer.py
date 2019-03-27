@@ -1,5 +1,5 @@
-from ..utils.baselog import BaseLog
-from .location import Location
+from utils.baselog import BaseLog
+from models.location import Location
 
 
 class Customer(BaseLog):
